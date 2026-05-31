@@ -1,0 +1,2136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.overalldiv{
+    min-height:300px;
+    /* overflow:hidden; */
+}
+.overalldiv1{
+    height:930px;
+    background-image: url(https://img.freepik.com/premium-photo/nature-wallpaper-landscape-full-hd-4k-8k-latest-background_1085145-176.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+     /* background-color:rgba(255, 255, 255,0.2); */
+    
+}
+.navdemo{
+    
+
+    transition: 0.3s!important;
+    color:black!important;
+    z-index: 999!important;
+    width:100%!important;
+     background: rgba(255,255,255,0.8)!important;
+    font-weight: bolder!important;
+    padding: 5px!important;
+    
+}
+.navdemo a{
+    color:black!important;
+    font-size: 25px!important;
+    padding-left:10px!important;
+    padding-right:10px!important;
+    
+}
+
+.navdemo .navlogo{
+    font-size: 25px!important;
+    width:200px;
+    height:200px;
+}
+.navdemo a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.underline{
+    width:200px;
+    border:solid 1px black;
+    
+}
+.content{
+    width:100%;
+    height:720px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,0.8);
+    /* padding-top:20px; */
+}
+.box{
+    width:30%;
+    /* background-color: aquamarine; */
+    /* padding-top:200px; */
+    height:100%;
+
+    color:black;
+}
+.boxcon{
+    font-size:80px;
+    
+}
+.d{
+    margin-left:115px;
+}
+
+.a{
+    color:white;
+}
+.b{
+    position:absolute;
+    left:120px;
+    top:300px;
+}
+.c{
+    margin-top:110px;
+    font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:65px;
+  color:mediumvioletred;
+}
+.box1{
+     width:40%;
+    /* background-color: aquamarine; */
+    /* padding-top:200px; */
+    height:100%;
+    
+}
+.box1img{
+    width:600px;
+    height:600px;
+    border-radius:50%;
+}
+.box2{
+     width:30%;
+    /* background-color: aquamarine; */
+    padding-top:400px;
+    padding-left:40px;
+    height:100%;
+    
+    color:black;
+}
+.box2cont{
+    font-size:20px;
+    padding-right:30px;
+    color:black;
+}
+.btnbox{
+    font-size:30px;
+    border-radius:47%;
+    padding:10px 30px;
+    margin-top:30px;
+    margin-left:110px;
+    background-color: black;
+    color:white;
+     border:none;
+}
+.curve{
+    width:1300px;
+    height:150px;
+    border:2px dashed black;
+    border-color:black transparent transparent transparent;
+    border-radius:50%;
+    z-index:999;
+    transform: skew(20deg);
+}
+.path{
+    stroke-linecap:round;
+}
+.gridbox{
+    text-align: center;
+    padding-top:50px;
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.grid{
+    grid-template-columns: auto auto auto;
+    display:grid;
+    justify-content: center;
+    align-self: center;
+    gap:50px;
+}
+
+.img1{
+    width:300px;
+    height:400px;
+    margin-top:20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfEVIFgIR3tbR0q_4TQmugqzrcVqDZs-I7Rg&s);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    overflow: hidden;
+     
+}  
+
+.img2{
+    width:300px;
+    height:400px;
+    margin-top:20px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/037/248/575/small/ai-generated-travelling-to-thailand-advertisment-background-with-copy-space-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+     overflow: hidden;
+}
+.img3{
+    width:300px;
+    height:400px;
+    margin-top:20px;
+    background-image: url(https://img.freepik.com/free-photo/blue-villa-beautiful-sea-hotel_1203-5316.jpg?semt=ais_incoming&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    object-fit: cover;
+    transition: 0.5s;
+     overflow: hidden;
+}
+.img4{
+    width:300px;
+    height:400px;
+    margin-top:20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+     overflow: hidden;
+    background-image: url(https://thumbs.dreamstime.com/b/amazing-nature-landscape-famous-waterfall-skradinski-buk-sunrise-croatia-outdoor-travel-background-amazing-nature-landscape-147189513.jpg);
+}
+.img5{
+    width:300px;
+    height:400px;
+    margin-top:20px;
+    background-repeat: no-repeat;
+    position:relative;
+     overflow: hidden;
+    background-size:cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0uuW-6iYiMwN8vvQAOI47LfDyGeT_ebAMDA&s);
+}
+.img6{
+    width:300px;
+    height:400px;
+    margin-top:20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+     overflow: hidden;
+    background-image: url(https://img.freepik.com/premium-photo/waterfall-with-building-background-waterfall-middle_743511-12408.jpg?semt=ais_incoming&w=740&q=80);
+}
+.navanimation{
+    animation: card 2.5s ease forwards!important;
+    animation-delay:0.5s!important;
+}
+@keyframes card{
+    0%{
+       transform: translatex(100%);
+       opacity: 0;
+    }
+    80%{
+        transform: translatex(0);
+       opacity: 1;
+    }
+    100%{
+         transform: translatex(0px);
+       opacity: 1;
+    }
+}
+.overalldiv2{
+    background-color: chocolate;
+    height:400px;
+    margin-top:100px;
+    width:100%;
+    display:flex;
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.divimg1{
+    width:40%;
+    height:100%;
+    /* background-color: brown; */
+    position: relative;
+    display:flex;
+}
+.bor{
+    height:100px;
+    width:100px;
+    border: solid 10px white;
+    border-radius: 50%;
+    position: absolute;
+    left:-30px;
+    top:-30px;
+}
+.e{
+    margin-top:200px;
+    color:white;
+    font-size:30px;
+}
+.imga{
+    width:400px;
+    height:400px;
+    margin-left:50px;
+    position:absolute;
+    top:-30px;
+}
+.divimg2{
+    width:30%;
+    height:100%;
+    display:flex;
+    position: relative;
+    /* background-color: aqua; */
+}
+.diviimg3{
+    width:30%;
+    height:100%;
+    /* background-color: blue; */
+    display:flex;
+}
+.pac{
+    height: 100%;
+    background-color: goldenrod;
+    width:165px;
+    margin-left:0px;
+    
+}
+.pacimg{
+    width:290px;
+    height:280px;
+    position:absolute;
+    left:40px;
+    top:100px;
+}
+.pacimg1{
+    width:290px;
+    height:280px;
+    margin-left:0px;
+    margin-top:100px;
+    margin-right:20px;
+}
+
+.bor1{
+    height:100px;
+    width:100px;
+    border: solid 10px white;
+    border-radius: 50%;
+    margin-left:30px;
+    margin-top:-30px;
+}
+.imgcont{
+    background: rgba(0, 0, 0, 0.6);
+    height:80%;
+    clip-path:polygon(0 0,0 100% , 100% 100%);
+    width:80%;
+    position:absolute;
+    left:0px;
+    bottom:-100px;
+    color:white;
+    opacity:0;
+    transition: 1.5s;
+}
+.img3:hover{
+   transform: scale(1.1);
+   
+}
+.img3:hover .imgcont{
+    bottom:0;
+    opacity:1;
+
+}
+
+.img1:hover{
+   transform: scale(1.1);
+   
+}
+.img1:hover .imgcont{
+    bottom:0;
+    opacity:1;
+
+}
+.img2:hover{
+   transform: scale(1.1);
+   
+}
+.img2:hover .imgcont{
+    bottom:0;
+    opacity:1;
+
+}
+.img4:hover{
+   transform: scale(1.1);
+   
+}
+.img4:hover .imgcont{
+    bottom:0;
+    opacity:1;
+
+}.img5:hover{
+   transform: scale(1.1);
+   
+}
+.img5:hover .imgcont{
+    bottom:0;
+    opacity:1;
+
+}
+.img6:hover{
+   transform: scale(1.1);
+   
+}
+.img6:hover .imgcont{
+    bottom:0;
+    opacity:1;
+
+}
+.img3:hover .imgcont1{
+    top:0;
+    opacity:1;
+
+    
+}
+.img1:hover .imgcont1{
+    top:0;
+    opacity:1;
+
+}
+.img2:hover .imgcont1{
+    top:0;
+    opacity:1;
+
+}
+.img4:hover .imgcont1{
+    top:0;
+    opacity:1;
+
+}
+.img5:hover .imgcont1{
+    top:0;
+    opacity:1;
+
+}
+.img6:hover .imgcont1{
+    top:0;
+    opacity:1;
+
+}
+.cont1{
+    padding-top:200px;
+    width:150px;
+    font-size:20px;
+}
+.cont{
+    font-size: 30px;
+}
+.imgcont1{
+    background: rgba(0, 0, 0, 0.6);
+    height:80%;
+    clip-path:polygon(100% 100%,100% 0% , 0% 0%);
+    width:80%;
+    position:absolute;
+    left:60px;
+    top:-100px;
+    color:white;
+    padding-top:50px;
+    padding-left:60px;
+    opacity:0;
+    transition:0.5s;
+}
+/* .imgcont1:hover{
+    opacity:1;
+    transform:translateX(-20px);
+    
+} */
+.overalldiv3{
+    min-height:300px;
+     margin-top:100px;
+      font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.trip{
+    text-align:center;
+
+}
+.travelbox1{
+    height:300px;
+    margin-top:50px;
+    display:flex;
+    width:100%;
+}
+.place1{
+    width:60%;
+}
+.placecont{
+    width:40%;
+    padding-top:50px;
+    font-size:25px;
+    
+}
+.placeimg{
+    width:700px;
+    height:300px;
+    margin-left:-100px;
+    margin-top:20px;
+     /* clip-path:polygon(5% 20%,25% 5% , 60% 0%, 90% 20%, 95% 60%, 80% 90%, 40% 100%, 10% 80%); */
+}
+.placecont2{
+    width:40%;
+    padding-top:50px;
+    font-size:25px;
+    padding-left:50px;
+}
+.placeimg2{
+    width:700px;
+    height:300px;
+    margin-left:200px;
+     /* clip-path:polygon(5% 20%,25% 5% , 60% 0%, 90% 20%, 95% 60%, 80% 90%, 40% 100%, 10% 80%); */
+}
+.overalldiv4{
+    height:700px;
+    border:1px dashed blue;
+     border-radius:10px;
+    margin:50px 5px;
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.overallimg{
+    height:660px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnMVTv0j0SVGZtdxSAh2aulvySNcgLHoqwg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:20px;
+    background-color:rgba(255, 255, 255,0.2);
+    color:white;
+}
+.top{
+    font-size:80px;
+    padding:20px;
+}
+.topgrid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:80px;
+    justify-content: center;
+    align-items: center;
+}
+.topimg1{
+    width:300px;
+    height:400px;
+    position:relative;
+    margin-left:20px;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-849.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: -50px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.topimg2{
+    width:300px;
+    height:400px;
+    position:relative;
+     background-repeat: no-repeat;
+    background-size: cover;
+     background-image: url(https://thumbs.dreamstime.com/b/amazing-nature-landscape-famous-waterfall-skradinski-buk-sunrise-croatia-outdoor-travel-background-amazing-nature-landscape-147189513.jpg);
+    background-position: -50px;
+}
+.topimg3{
+    width:300px;
+    height:400px;
+    position:relative;
+     background-repeat: no-repeat;
+    background-size: cover;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoKDubO3xJuUXn0enqMfWbZqvbjoQLMk2IjA&s);
+    background-position: -50px;
+}
+.topcont{
+    background: rgba(0, 0, 0,0.5);
+    height:100px;
+    margin-top:300px;
+    text-align:center;
+    padding-top:30px;
+}
+.one{
+    font-size:250px;
+    position:absolute;
+    left:-70px;
+    top:50px;
+    text-shadow:-1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    color:black;
+}
+
+.topbtn{
+    background:linear-gradient(to left, red, black);
+    margin-top:50px;
+    margin-left:150px;
+    border-radius:40px;
+    padding:10px 30px;
+    font-size:20px;
+    border:none;
+    color:white;
+}
+.topbtn:hover{
+    background:linear-gradient(to left, blue, green); 
+    transform: skewX(10deg);
+}
+.overalldiv5{
+    height:700px;
+    text-align:center;
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.ep{
+    width:70%;
+    margin-left:200px;
+}
+.exploreimg{
+    background-image: url(https://thumbs.dreamstime.com/b/summer-beach-nature-travel-background-spain-costa-brava-40841681.jpg);
+    height:600px;
+    margin-top:300px;
+    background-position: -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.eimg3cont{
+    text-align: center;
+    margin-top:350px;
+    color:white;
+    font-size:30px;
+}
+.eicon{
+    margin-top:200px;
+    color:beige;
+}
+.exploregrid{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap:20px;
+    width:1600px;
+    height:550px;
+    position:absolute;
+    top:-200px;
+    left:-100px;
+    background: rgba(255, 255, 255,0.8);
+    /* background-color: blanchedalmond; */
+}
+.eimg1{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://img.freepik.com/free-photo/landmark-pagoda-doi-inthanon-national-park-chiang-mai-thailand_335224-779.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+    margin-top:50px;
+}
+.eimg2{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://thumbs.dreamstime.com/b/scenic-sattal-lake-tourist-paddle-boats-sunset-picturesque-landscape-view-nainital-uttarakhand-india-sattal-177113643.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+     margin-top:50px;
+}
+.eimg4{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJLltlBoVt0fFWCbzVxPSomA4JvAOrPgrrsg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+     margin-top:50px;
+}
+.eimg5{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://static.toiimg.com/photo/116752559.cms);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+     margin-top:50px;
+}
+.eimg3{
+    height:500px;
+    width:350px;
+    background-image: url(https://cdn.magicdecor.in/com/2022/10/30064310/792172873_a-1.jpg);
+    background-position: -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+}
+.overalldiv6{
+    height:1000px;
+    position:relative;
+    
+    top:200px;
+    background-color:white;
+     border-top-left-radius:40%;
+    border-top-right-radius:40%;
+    
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.curvecont{
+    padding-top:50px;
+    text-align:center;
+}
+
+.textimg{
+    font-size:250px;
+    text-align:center;
+}
+.tex4{
+    height:60px;
+    width:500px;
+    position:relative;
+    top:-70px;
+    left:630px;
+    background-color: white;
+    text-align:none;
+}
+.trustcont{
+    width:70%;
+    height:300px;
+    margin-left:150px;
+    margin-top:40px;
+}
+.trust{
+    margin-left:120px;
+}
+.trust1{
+    margin-top:50px;
+}
+.tex3{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3XHl03HE6mJn5ZXitGy2RglVesyDUZFE_A&s);
+    background-clip: text;
+    color:transparent;
+}
+.tex1{
+    font-size:245px;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3XHl03HE6mJn5ZXitGy2RglVesyDUZFE_A&s);
+    background-clip: text;
+    color:transparent;
+    
+}
+.tex2{
+    font-size:80px;
+}
+.overalldiv7{
+    min-height:650px;
+    margin-top:300px;
+    text-align: center;
+    
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.testcont{
+    width:100%;
+    height:200px;
+    background-color:sandybrown;
+    transform:skewY(-5deg);
+    position:relative;
+    border-top:10px double white;
+     border-bottom:10px double white;
+     display:flex;
+    
+}
+.testcont1{
+    width:100%;
+    height:200px;
+    transform:skewY(-5deg);
+     display:flex;
+     margin-top:50px;
+    
+}
+.test1{
+    width:35%;
+    height:100%;
+     position:relative;
+     left:90px;
+}
+.test2{
+    width:35%;
+    height:100%;
+     position:relative;
+     
+}
+.testimg{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    position:absolute;
+    top:40px;
+}
+.overalldiv8{
+    height:600px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwZ2GguwoIVkCiiwSbFBqvSVgTrf8jNMppQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.div8cont{
+    height:600px;
+    width:100%;
+    background: rgba(0, 0, 0, 0.6);
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.div8cont1{
+    height:100%;
+    width:40%;
+    padding-top:200px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.div8cont2{
+    height:100%;
+    width:20%;
+    padding-top:200px;
+}
+.div8cont3{
+    height:100%;
+    width:20%;
+    padding-top:200px;
+}
+.div8cont4{
+    height:100%;
+    width:20%;
+    padding-top:200px;
+}
+@media only screen and (min-width:200px) and (max-width:600px) {
+ .underline{
+    width:0px;
+    border:solid 1px white;
+    
+}
+.overalldiv1{
+    height:100%;
+}
+.content{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    width:100%;
+    margin-top:0px;
+    height:100%;
+    padding:20px;
+    
+}
+.boxcon{
+    font-size:80px;
+    
+}
+.d{
+    margin-left:0px;
+}
+
+
+.b{
+    position:none;
+    left:0px;
+    top:300px;
+    color:black;
+    padding:20px;
+}
+.c{
+    margin-top:180px;
+    font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:65px;
+  color:mediumvioletred;
+}
+.box1{
+     width:100%;
+    
+    height:100%;
+    
+}
+.box1img{
+    width:80%;
+    height:80%;
+    border-radius:50%;
+    margin:20px;
+}
+.box2{
+     width:100%;
+    /* background-color: aquamarine; */
+    padding-top:0px;
+    padding-left:0px;
+    height:100%;
+    padding:30px;
+    
+    
+}
+.box2cont{
+    font-size:20px;
+    
+    
+}
+.btnbox{
+    font-size:30px;
+    border-radius:47%;
+    padding:10px 30px;
+    margin-top:30px;
+    margin-left:0px;
+    background-color: black;
+    color:white;
+     border:none;
+}
+
+.gridbox{
+    text-align: center;
+    padding-top:50px;
+}
+.grid{
+    grid-template-columns: auto ;
+    display:grid;
+    justify-content: center;
+    align-self: center;
+    gap:50px;
+}
+
+
+.navanimation{
+    animation: card 2.5s ease forwards!important;
+    animation-delay:0.5s!important;
+}
+@keyframes card{
+    0%{
+       transform: translatex(100%);
+       opacity: 0;
+    }
+    80%{
+        transform: translatex(0);
+       opacity: 1;
+    }
+    100%{
+         transform: translatex(0px);
+       opacity: 1;
+    }
+}
+
+.overalldiv3{
+    min-height:100%;
+     margin-top:100px;
+      font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  width:100%;
+}
+.trip{
+    text-align:center;
+
+}
+.travelbox1{
+    height:100%;
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.place1{
+    width:100%;
+}
+.placecont{
+    width:100%;
+    padding-top:50px;
+    font-size:25px;
+     padding-left:50px;
+}
+.placeimg{
+    width:100%;
+    height:100%;
+    margin-left:0px;
+     clip-path:polygon(5% 20%,25% 5% , 60% 0%, 90% 20%, 95% 60%, 80% 90%, 40% 100%, 10% 80%);
+}
+.placecont2{
+    width:100%;
+    padding-top:50px;
+    font-size:25px;
+    padding-left:50px;
+}
+.placeimg2{
+    width:100%;
+    height:100%;
+    margin-left:0px;
+     clip-path:polygon(5% 20%,25% 5% , 60% 0%, 90% 20%, 95% 60%, 80% 90%, 40% 100%, 10% 80%);
+}
+.overalldiv4{
+    height:100%;
+    border:1px dashed blue;
+     border-radius:10px;
+    margin:50px 5px;
+}
+.overallimg{
+    height:100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnMVTv0j0SVGZtdxSAh2aulvySNcgLHoqwg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:20px;
+    background-color:rgba(255, 255, 255,0.2);
+    color:white;
+}
+.top{
+    font-size:80px;
+    padding:20px;
+    
+}
+.topgrid{
+    display:grid;
+    grid-template-columns: auto;
+    gap:80px;
+    /* margin:20px; */
+    justify-content: center;
+    align-items: center;
+}
+.topimg1{
+    width:300px;
+    height:400px;
+    position:relative;
+    margin-left:0px;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-849.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: -50px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.topimg2{
+    width:300px;
+    height:400px;
+    position:relative;
+     background-repeat: no-repeat;
+    background-size: cover;
+     background-image: url(https://thumbs.dreamstime.com/b/amazing-nature-landscape-famous-waterfall-skradinski-buk-sunrise-croatia-outdoor-travel-background-amazing-nature-landscape-147189513.jpg);
+    background-position: -50px;
+}
+.topimg3{
+    width:300px;
+    height:400px;
+    position:relative;
+     background-repeat: no-repeat;
+    background-size: cover;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoKDubO3xJuUXn0enqMfWbZqvbjoQLMk2IjA&s);
+    background-position: -50px;
+}
+.topcont{
+    background: rgba(0, 0, 0,0.5);
+    height:100px;
+    margin-top:300px;
+    text-align:center;
+    padding-top:30px;
+}
+.one{
+    font-size:250px;
+    position:absolute;
+    left:-40px;
+    top:50px;
+    text-shadow:-1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    color:black;
+}
+
+.topbtn{
+    background:linear-gradient(to left, red, black);
+    margin-top:50px;
+    margin-left:80px;
+    border-radius:40px;
+    padding:10px 30px;
+    font-size:20px;
+    border:none;
+    color:white;
+    margin-bottom:50px;
+}
+.topbtn:hover{
+    background:linear-gradient(to left, blue, green); 
+    transform: skewX(10deg);
+}
+.overalldiv5{
+    height:100%;
+    text-align:center;
+}
+.ep{
+    width:100%;
+    margin-left:0px;
+}
+.exploreimg{
+    background-image: url(https://thumbs.dreamstime.com/b/summer-beach-nature-travel-background-spain-costa-brava-40841681.jpg);
+    height:1800px;
+    margin-top:300px;
+    background-position: -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.eimg3cont{
+    text-align: center;
+    margin-top:350px;
+    color:white;
+    font-size:30px;
+}
+.eicon{
+    margin-top:200px;
+    color:beige;
+}
+.exploregrid{
+    display:grid;
+    grid-template-columns:auto;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:-300px;
+    left:0px;
+    background: rgba(255, 255, 255,0.8);
+    /* background-color: blanchedalmond; */
+}
+.eimg1{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://img.freepik.com/free-photo/landmark-pagoda-doi-inthanon-national-park-chiang-mai-thailand_335224-779.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+    margin-top:50px;
+    margin-left:10px;
+}
+.eimg2{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://thumbs.dreamstime.com/b/scenic-sattal-lake-tourist-paddle-boats-sunset-picturesque-landscape-view-nainital-uttarakhand-india-sattal-177113643.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+     margin-top:50px;
+}
+.eimg4{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJLltlBoVt0fFWCbzVxPSomA4JvAOrPgrrsg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+     margin-top:50px;
+}
+.eimg5{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://static.toiimg.com/photo/116752559.cms);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+     margin-top:50px;
+}
+.eimg3{
+    height:100%;
+    width:100%;
+    background-image: url(https://cdn.magicdecor.in/com/2022/10/30064310/792172873_a-1.jpg);
+    background-position: -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+}
+.overalldiv6{
+    height:100%;
+    position:relative;
+    margin-top:0px;
+    top:-100px;
+    background-color:white;
+     border-top-left-radius:40%;
+    border-top-right-radius:40%;
+    
+}
+.curvecont{
+    padding-top:50px;
+    text-align:center;
+}
+
+.textimg{
+    font-size:250px;
+    text-align:center;
+}
+.tex4{
+    height:100%;
+    width:100%;
+    position:relative;
+    top:-70px;
+    left:0px;
+    background-color: white;
+    text-align:none;
+}
+.trustcont{
+    width:100%;
+    height:100%;
+    margin-left:0px;
+    margin-top:40px;
+}
+.trust{
+    margin-left:20px;
+}
+.trust1{
+    margin-top:50px;
+}
+.tex3{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3XHl03HE6mJn5ZXitGy2RglVesyDUZFE_A&s);
+    background-clip: text;
+    color:transparent;
+}
+.tex1{
+    font-size:245px;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3XHl03HE6mJn5ZXitGy2RglVesyDUZFE_A&s);
+    background-clip: text;
+    color:transparent;
+    
+}
+.tex2{
+    font-size:80px;
+}
+.overalldiv7{
+    min-height:100%;
+    margin-top:0px;
+    text-align: center;
+    
+}
+.testcont{
+    width:100%;
+    height:100%;
+    background-color:sandybrown;
+    transform:skewY(-5deg);
+    position:relative;
+    border-top:10px double white;
+     border-bottom:10px double white;
+     display:flex;
+     flex-direction: column;
+     top:200px;
+    
+}
+.testcont1{
+    width:100%;
+    height:100%;
+    transform:skewY(-5deg);
+     display:flex;
+     flex-direction: column;
+     margin-top:150px;
+     margin-left:50px;
+}
+.test1{
+    width:100%;
+    height:100%;
+     position:relative;
+     left:0px;
+}
+.test2{
+    width:100%;
+    height:100%;
+     position:relative;
+     
+}
+.testimg{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    position:absolute;
+    top:40px;
+    left:0px;
+}
+.overalldiv8{
+    height:100%;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwZ2GguwoIVkCiiwSbFBqvSVgTrf8jNMppQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:300px;
+}
+.div8cont{
+    height:100%;
+    width:100%;
+    background: rgba(0, 0, 0, 0.6);
+    display:flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.div8cont1{
+    height:100%;
+    width:100%;
+    text-align:center;
+    padding-top:200px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.div8cont2{
+    height:100%;
+    width:100%;
+    text-align:center;
+    padding-top:50px;
+     padding-left:50px;
+    padding-right:50px;
+}
+.div8cont3{
+    height:100%;
+    width:100%;
+    text-align:center;
+    padding-top:50px;
+     padding-left:50px;
+    padding-right:50px;
+}
+.div8cont4{
+    height:100%;
+    width:100%;
+    padding-top:50px;
+    text-align:center;
+     padding-left:50px;
+    padding-right:50px;
+}
+.overalldiv2{
+    background-color: chocolate;
+    height:100%;
+    margin-top:100px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.divimg1{
+    width:100%;
+    height:100%;
+    flex-direction: column;
+    position: relative;
+    display:flex;
+}
+.bor{
+    height:0px;
+    width:0px;
+    border: solid 0px white;
+    border-radius: 50%;
+    position: absolute;
+    left:-30px;
+    top:-30px;
+}
+.e{
+    margin-top:280px;
+    color:white;
+    font-size:30px;
+}
+.e1{
+    margin-top:50px;
+    color:white;
+    font-size:30px;
+    margin-bottom:50px;
+}
+.imga{
+    width:90%;
+    height:90%;
+    margin-left:25px;
+    position:absolute;
+    top:-30px;
+}
+.divimg2{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    margin-top:50px;
+}
+.diviimg3{
+    width:100%;
+    margin-top:300px;
+    height:100%;
+    flex-direction: column;
+}
+.pac{
+    height:100%;
+    background-color: goldenrod;
+    width:100%;
+    
+}
+.pacimg{
+    width:95%;
+    height:200px;
+    position:none;
+    left:0px;
+    top:100px;
+    margin:10px;
+}
+.pacimg1{
+    width:95%;
+    height:100%;
+    margin-left:10px;
+    margin-top:20px;
+    margin-right:0px;
+}
+.bor1{
+    height:0px;
+    width:0px;
+    border: solid 0px white;
+    border-radius: 0%;
+    position: absolute;
+    left:300px;
+    top:400px;
+}
+}
+
+@media only screen and (min-width:600px) and (max-width:1200px) {
+ .underline{
+    width:0px;
+    border:solid 1px white;
+    
+}
+.overalldiv1{
+    height:100%;
+}
+.content{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    width:100%;
+    margin-top:0px;
+    height:100%;
+    padding:20px;
+    
+}
+.boxcon{
+    font-size:80px;
+    
+}
+.d{
+    margin-left:0px;
+}
+
+
+.b{
+    position:absolute;
+    left:0px;
+    top:300px;
+    color:black;
+    padding:20px;
+}
+.c{
+    margin-top:120px;
+    font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:65px;
+  color:mediumvioletred;
+}
+.box1{
+     width:100%;
+    
+    height:100%;
+    
+}
+.box1img{
+    width:80%;
+    height:80%;
+    border-radius:50%;
+    margin:20px;
+}
+.box2{
+     width:100%;
+    /* background-color: aquamarine; */
+    padding-top:0px;
+    padding-left:0px;
+    height:100%;
+    padding:30px;
+    
+    
+}
+.box2cont{
+    font-size:20px;
+    
+    
+}
+.btnbox{
+    font-size:30px;
+    border-radius:47%;
+    padding:10px 30px;
+    margin-top:30px;
+    margin-left:0px;
+    background-color: black;
+    color:white;
+     border:none;
+}
+.curve{
+    width:1300px;
+    height:150px;
+    border:2px dashed black;
+    border-color:black transparent transparent transparent;
+    border-radius:50%;
+    z-index:999;
+    transform: skew(20deg);
+}
+.path{
+    stroke-linecap:round;
+}
+.gridbox{
+    text-align: center;
+    padding-top:50px;
+}
+.grid{
+    grid-template-columns: auto ;
+    display:grid;
+    justify-content: center;
+    align-self: center;
+    gap:50px;
+}
+
+
+.navanimation{
+    animation: card 2.5s ease forwards!important;
+    animation-delay:0.5s!important;
+}
+@keyframes card{
+    0%{
+       transform: translatex(100%);
+       opacity: 0;
+    }
+    80%{
+        transform: translatex(0);
+       opacity: 1;
+    }
+    100%{
+         transform: translatex(0px);
+       opacity: 1;
+    }
+}
+
+.overalldiv3{
+    min-height:100%;
+     margin-top:100px;
+      font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  width:100%;
+}
+.trip{
+    text-align:center;
+
+}
+.travelbox1{
+    height:100%;
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.place1{
+    width:100%;
+}
+.placecont{
+    width:100%;
+    padding-top:50px;
+    font-size:25px;
+    padding:50px 20px;
+}
+.placeimg{
+    width:100%;
+    height:100%;
+    margin-left:0px;
+     clip-path:polygon(5% 20%,25% 5% , 60% 0%, 90% 20%, 95% 60%, 80% 90%, 40% 100%, 10% 80%);
+}
+.placecont2{
+    width:100%;
+    padding-top:50px;
+    font-size:25px;
+    padding-left:50px;
+    padding:50px 20px;
+}
+.placeimg2{
+    width:100%;
+    height:100%;
+    margin-left:0px;
+     clip-path:polygon(5% 20%,25% 5% , 60% 0%, 90% 20%, 95% 60%, 80% 90%, 40% 100%, 10% 80%);
+}
+.overalldiv4{
+    height:100%;
+    border:1px dashed blue;
+     border-radius:10px;
+    margin:50px 5px;
+}
+.overallimg{
+    height:100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnMVTv0j0SVGZtdxSAh2aulvySNcgLHoqwg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:20px;
+    background-color:rgba(255, 255, 255,0.2);
+    color:white;
+}
+.top{
+    font-size:80px;
+    padding:20px;
+}
+.topgrid{
+    display:grid;
+    grid-template-columns: auto;
+    gap:80px;
+    justify-content: center;
+    align-items: center;
+}
+.topimg1{
+    width:300px;
+    height:400px;
+    position:relative;
+    margin-left:20px;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-849.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: -50px;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.topimg2{
+    width:300px;
+    height:400px;
+    position:relative;
+     background-repeat: no-repeat;
+    background-size: cover;
+     background-image: url(https://thumbs.dreamstime.com/b/amazing-nature-landscape-famous-waterfall-skradinski-buk-sunrise-croatia-outdoor-travel-background-amazing-nature-landscape-147189513.jpg);
+    background-position: -50px;
+}
+.topimg3{
+    width:300px;
+    height:400px;
+    position:relative;
+     background-repeat: no-repeat;
+    background-size: cover;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoKDubO3xJuUXn0enqMfWbZqvbjoQLMk2IjA&s);
+    background-position: -50px;
+}
+.topcont{
+    background: rgba(0, 0, 0,0.5);
+    height:100px;
+    margin-top:300px;
+    text-align:center;
+    padding-top:30px;
+}
+.one{
+    font-size:250px;
+    position:absolute;
+    left:-70px;
+    top:50px;
+    text-shadow:-1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    color:black;
+}
+
+.topbtn{
+    background:linear-gradient(to left, red, black);
+    margin-top:50px;
+    margin-left:150px;
+    border-radius:40px;
+    padding:10px 30px;
+    font-size:20px;
+    border:none;
+    color:white;
+}
+.topbtn:hover{
+    background:linear-gradient(to left, blue, green); 
+    transform: skewX(10deg);
+}
+.overalldiv5{
+    height:100%;
+    text-align:center;
+}
+.ep{
+    width:100%;
+    margin-left:0px;
+}
+.exploreimg{
+    background-image: url(https://thumbs.dreamstime.com/b/summer-beach-nature-travel-background-spain-costa-brava-40841681.jpg);
+    height:1800px;
+    margin-top:300px;
+    background-position: -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.eimg3cont{
+    text-align: center;
+    margin-top:350px;
+    color:white;
+    font-size:30px;
+}
+.eicon{
+    margin-top:200px;
+    color:beige;
+}
+.exploregrid{
+    display:grid;
+    grid-template-columns:auto;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:-300px;
+    left:0px;
+    background: rgba(255, 255, 255,0.8);
+    /* background-color: blanchedalmond; */
+}
+.eimg1{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://img.freepik.com/free-photo/landmark-pagoda-doi-inthanon-national-park-chiang-mai-thailand_335224-779.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+    margin-top:50px;
+}
+.eimg2{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://thumbs.dreamstime.com/b/scenic-sattal-lake-tourist-paddle-boats-sunset-picturesque-landscape-view-nainital-uttarakhand-india-sattal-177113643.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+     margin-top:50px;
+}
+.eimg4{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJLltlBoVt0fFWCbzVxPSomA4JvAOrPgrrsg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+     margin-top:50px;
+}
+.eimg5{
+    height:300px;
+    width:280px;
+    background-position: -30px;
+    background-image: url(https://static.toiimg.com/photo/116752559.cms);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+     margin-top:50px;
+}
+.eimg3{
+    height:500px;
+    width:350px;
+    background-image: url(https://cdn.magicdecor.in/com/2022/10/30064310/792172873_a-1.jpg);
+    background-position: -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+     border-top-left-radius:45%;
+    border-top-right-radius:45%;
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius:45%;
+}
+.overalldiv6{
+    height:100%;
+    position:relative;
+    margin-top:0px;
+    top:-100px;
+    background-color:white;
+     border-top-left-radius:40%;
+    border-top-right-radius:40%;
+    
+}
+.curvecont{
+    padding-top:50px;
+    text-align:center;
+}
+
+.textimg{
+    font-size:250px;
+    text-align:center;
+    /* padding:20px; */
+}
+.tex4{
+    height:100%;
+    width:100%;
+    position:relative;
+    top:-70px;
+    left:0px;
+    background-color: white;
+    text-align:none;
+}
+.trustcont{
+    width:100%;
+    height:100%;
+    margin-left:0px;
+    margin-top:40px;
+}
+.trust{
+    margin-left:0px;
+    padding:20px;
+}
+.trust1{
+    margin-top:20px;
+    padding:20px;
+}
+.tex3{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3XHl03HE6mJn5ZXitGy2RglVesyDUZFE_A&s);
+    background-clip: text;
+    color:transparent;
+}
+.tex1{
+    font-size:245px;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3XHl03HE6mJn5ZXitGy2RglVesyDUZFE_A&s);
+    background-clip: text;
+    color:transparent;
+    
+}
+.tex2{
+    font-size:80px;
+}
+.overalldiv7{
+    min-height:100%;
+    margin-top:0px;
+    text-align: center;
+    
+}
+.testcont{
+    width:100%;
+    height:100%;
+    background-color:sandybrown;
+    transform:skewY(-5deg);
+    position:relative;
+    border-top:10px double white;
+     border-bottom:10px double white;
+     display:flex;
+     top:200px;
+    
+}
+.testcont1{
+    width:100%;
+    height:100%;
+    transform:skewY(-5deg);
+     display:flex;
+    
+     margin-top:150px;
+    
+}
+.test1{
+    width:100%;
+    height:100%;
+     position:relative;
+     left:0px;
+}
+.test2{
+    width:100%;
+    height:100%;
+     position:relative;
+     
+}
+.testimg{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    position:absolute;
+    top:40px;
+    left:0px;
+}
+.overalldiv8{
+    height:100%;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwZ2GguwoIVkCiiwSbFBqvSVgTrf8jNMppQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:300px;
+}
+.div8cont{
+    height:100%;
+    width:100%;
+    background: rgba(0, 0, 0, 0.6);
+    display:flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.div8cont1{
+    height:100%;
+    width:100%;
+    text-align:center;
+    padding-top:200px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.div8cont2{
+    height:100%;
+    width:100%;
+    text-align:center;
+    padding-top:50px;
+     padding-left:50px;
+    padding-right:50px;
+}
+.div8cont3{
+    height:100%;
+    width:100%;
+    text-align:center;
+    padding-top:50px;
+     padding-left:50px;
+    padding-right:50px;
+}
+.div8cont4{
+    height:100%;
+    width:100%;
+    padding-top:50px;
+    text-align:center;
+     padding-left:50px;
+    padding-right:50px;
+}
+.overalldiv2{
+    background-color: chocolate;
+    height:100%;
+    margin-top:100px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+  animation:first 5s linear both;
+    animation-timeline:view();
+    animation-range:entry 20% cover 50%;    
+}
+@keyframes first{
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+.divimg1{
+    width:100%;
+    height:100%;
+    flex-direction: column;
+    position: relative;
+    display:flex;
+}
+.bor{
+    height:0px;
+    width:0px;
+    border: solid 0px white;
+    border-radius: 50%;
+    position: absolute;
+    left:-30px;
+    top:-30px;
+}
+.e{
+    margin-top:200px;
+    color:white;
+    font-size:30px;
+}
+.imga{
+    width:90%;
+    height:100%;
+    margin-left:50px;
+    position:absolute;
+    top:-30px;
+}
+.divimg2{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.diviimg3{
+    width:100%;
+    margin-top:300px;
+    height:100%;
+    flex-direction: column;
+}
+.pac{
+    height:100%;
+    background-color: goldenrod;
+    width:100%;
+    
+}
+.pacimg{
+    width:95%;
+    height:200px;
+    position:none;
+    left:0px;
+    top:100px;
+    margin:10px;
+}
+.pacimg1{
+    width:95%;
+    height:100%;
+    margin-left:10px;
+    margin-top:20px;
+    margin-right:0px;
+}
+.bor1{
+    height:0px;
+    width:0px;
+    border: solid 0px white;
+    border-radius: 0%;
+    position: absolute;
+    left:300px;
+    top:400px;
+}
+}
